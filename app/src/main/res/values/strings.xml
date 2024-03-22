@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TugasDay_5</string>
+    <string name="customers_name">customers name</string>
+    <string name="golds">gold</string>
+    <string name="silvers">silvers</string>
+    <string name="regulers">regulers</string>
+    <string name="quantities">quantities</string>
+    <string name="code">code</string>
+    <string name="proccess">proccess</string>
+    <string name="share_info">share info</string>
+
+
+</resources>

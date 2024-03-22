@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC0CB"
+    android:padding="16dp"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/tvWelcomeMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold|italic"
+        android:paddingTop="25dp"
+        android:layout_marginTop="50dp"/>
+
+
+    <TextView
+        android:id="@+id/tvDetailTransaksi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:paddingTop="20dp"
+        android:textSize="16sp"
+        android:layout_below="@id/tvWelcomeMessage"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/share"
+        android:layout_width="130dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFDD0"
+        android:textColor="#808080"
+        android:layout_below="@id/tvDetailTransaksi"
+        android:text="@string/share_info" />
+
+</RelativeLayout>

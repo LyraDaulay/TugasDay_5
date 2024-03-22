@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="customers_name">고객 이름</string>
+    <string name="golds">금</string>
+    <string name="silvers">은</string>
+    <string name="regulers">규제자</string>
+    <string name="quantities">수량</string>
+    <string name="code">코드</string>
+    <string name="proccess">프로세스</string>
+    <string name="share_info">공유하다</string>
+</resources>

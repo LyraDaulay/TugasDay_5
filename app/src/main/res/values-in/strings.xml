@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="customers_name">Nama Pelanggan</string>
+    <string name="golds">Emas</string>
+    <string name="silvers">Perak</string>
+    <string name="regulers">Biasa</string>
+    <string name="quantities">Jumlah</string>
+    <string name="code">Kode</string>
+    <string name="proccess">Proses</string>
+    <string name="share_info">Bagikan info</string>
+</resources>

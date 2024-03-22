@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC0CB"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvintent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:text="Lyra Zulyanda Daulay Quiz 1"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"/>
+
+    <EditText
+        android:id="@+id/etnama"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/customers_name"
+        android:layout_below="@id/tvintent"
+        android:layout_marginBottom="16dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/etnama"
+        android:layout_marginBottom="16dp">
+
+
+        <RadioButton
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/golds"
+            android:clickable="true" />
+
+        <RadioButton
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/silvers"
+            android:clickable="true"/>
+
+        <RadioButton
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/regulers"
+            android:clickable="true"/>
+
+    </RadioGroup>
+
+
+    <EditText
+        android:id="@+id/etkodebarang"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/code"
+        android:layout_below="@id/radioGroup"
+        android:layout_marginBottom="16dp" />
+
+
+    <EditText
+        android:id="@+id/etjumlahbarang"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/quantities"
+        android:layout_below="@id/etkodebarang"
+        android:layout_marginBottom="16dp" />
+
+
+    <Button
+        android:layout_below="@id/etjumlahbarang"
+        android:text="@string/proccess"
+        android:id="@+id/btnpro"
+        android:layout_width="279dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#FFFDD0"
+        android:textColor="#808080" />
+
+
+</RelativeLayout>
